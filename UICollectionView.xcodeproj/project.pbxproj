@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		C80DEC24295E7556007E487D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80DEC23295E7556007E487D /* AppDelegate.swift */; };
 		C80DEC26295E7556007E487D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80DEC25295E7556007E487D /* SceneDelegate.swift */; };
-		C80DEC28295E7556007E487D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80DEC27295E7556007E487D /* ViewController.swift */; };
+		C80DEC28295E7556007E487D /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80DEC27295E7556007E487D /* PhotosViewController.swift */; };
 		C80DEC2B295E7556007E487D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C80DEC29295E7556007E487D /* Main.storyboard */; };
 		C80DEC2D295E755A007E487D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C80DEC2C295E755A007E487D /* Assets.xcassets */; };
 		C80DEC30295E755A007E487D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C80DEC2E295E755A007E487D /* LaunchScreen.storyboard */; };
 		C80DEC3B295E755A007E487D /* UICollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80DEC3A295E755A007E487D /* UICollectionViewTests.swift */; };
 		C80DEC45295E755B007E487D /* UICollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80DEC44295E755B007E487D /* UICollectionViewUITests.swift */; };
 		C80DEC47295E755B007E487D /* UICollectionViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80DEC46295E755B007E487D /* UICollectionViewUITestsLaunchTests.swift */; };
+		C80DEC54295E9C8E007E487D /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80DEC53295E9C8E007E487D /* Photo.swift */; };
+		C80DEC56295E9D0A007E487D /* FlickrAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80DEC55295E9D0A007E487D /* FlickrAPI.swift */; };
+		C80DEC58295EA00E007E487D /* PhotoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80DEC57295EA00E007E487D /* PhotoStore.swift */; };
+		C80DEC5A295F847B007E487D /* PhotoDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80DEC59295F847B007E487D /* PhotoDataSource.swift */; };
+		C80DEC5C295F8890007E487D /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80DEC5B295F8890007E487D /* PhotoCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +44,7 @@
 		C80DEC20295E7556007E487D /* UICollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C80DEC23295E7556007E487D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C80DEC25295E7556007E487D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C80DEC27295E7556007E487D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C80DEC27295E7556007E487D /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		C80DEC2A295E7556007E487D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C80DEC2C295E755A007E487D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C80DEC2F295E755A007E487D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,11 @@
 		C80DEC40295E755A007E487D /* UICollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C80DEC44295E755B007E487D /* UICollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewUITests.swift; sourceTree = "<group>"; };
 		C80DEC46295E755B007E487D /* UICollectionViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C80DEC53295E9C8E007E487D /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		C80DEC55295E9D0A007E487D /* FlickrAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrAPI.swift; sourceTree = "<group>"; };
+		C80DEC57295EA00E007E487D /* PhotoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoStore.swift; sourceTree = "<group>"; };
+		C80DEC59295F847B007E487D /* PhotoDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDataSource.swift; sourceTree = "<group>"; };
+		C80DEC5B295F8890007E487D /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +111,13 @@
 			children = (
 				C80DEC23295E7556007E487D /* AppDelegate.swift */,
 				C80DEC25295E7556007E487D /* SceneDelegate.swift */,
-				C80DEC27295E7556007E487D /* ViewController.swift */,
+				C80DEC27295E7556007E487D /* PhotosViewController.swift */,
+				C80DEC53295E9C8E007E487D /* Photo.swift */,
+				C80DEC55295E9D0A007E487D /* FlickrAPI.swift */,
+				C80DEC57295EA00E007E487D /* PhotoStore.swift */,
 				C80DEC29295E7556007E487D /* Main.storyboard */,
+				C80DEC5B295F8890007E487D /* PhotoCollectionViewCell.swift */,
+				C80DEC59295F847B007E487D /* PhotoDataSource.swift */,
 				C80DEC2C295E755A007E487D /* Assets.xcassets */,
 				C80DEC2E295E755A007E487D /* LaunchScreen.storyboard */,
 				C80DEC31295E755A007E487D /* Info.plist */,
@@ -258,9 +273,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C80DEC28295E7556007E487D /* ViewController.swift in Sources */,
+				C80DEC54295E9C8E007E487D /* Photo.swift in Sources */,
+				C80DEC5C295F8890007E487D /* PhotoCollectionViewCell.swift in Sources */,
+				C80DEC5A295F847B007E487D /* PhotoDataSource.swift in Sources */,
+				C80DEC28295E7556007E487D /* PhotosViewController.swift in Sources */,
 				C80DEC24295E7556007E487D /* AppDelegate.swift in Sources */,
 				C80DEC26295E7556007E487D /* SceneDelegate.swift in Sources */,
+				C80DEC58295EA00E007E487D /* PhotoStore.swift in Sources */,
+				C80DEC56295E9D0A007E487D /* FlickrAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +465,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,6 +494,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
