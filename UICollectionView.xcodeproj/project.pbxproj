@@ -22,6 +22,7 @@
 		C80DEC5A295F847B007E487D /* PhotoDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80DEC59295F847B007E487D /* PhotoDataSource.swift */; };
 		C80DEC5C295F8890007E487D /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80DEC5B295F8890007E487D /* PhotoCollectionViewCell.swift */; };
 		C80DEC5E295F9FE7007E487D /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80DEC5D295F9FE7007E487D /* ImageStore.swift */; };
+		C80DEC60295FA287007E487D /* PhotoInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80DEC5F295FA287007E487D /* PhotoInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		C80DEC59295F847B007E487D /* PhotoDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDataSource.swift; sourceTree = "<group>"; };
 		C80DEC5B295F8890007E487D /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		C80DEC5D295F9FE7007E487D /* ImageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
+		C80DEC5F295FA287007E487D /* PhotoInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				C80DEC53295E9C8E007E487D /* Photo.swift */,
 				C80DEC55295E9D0A007E487D /* FlickrAPI.swift */,
 				C80DEC57295EA00E007E487D /* PhotoStore.swift */,
+				C80DEC5F295FA287007E487D /* PhotoInfoViewController.swift */,
 				C80DEC29295E7556007E487D /* Main.storyboard */,
 				C80DEC5D295F9FE7007E487D /* ImageStore.swift */,
 				C80DEC5B295F8890007E487D /* PhotoCollectionViewCell.swift */,
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C80DEC54295E9C8E007E487D /* Photo.swift in Sources */,
+				C80DEC60295FA287007E487D /* PhotoInfoViewController.swift in Sources */,
 				C80DEC5C295F8890007E487D /* PhotoCollectionViewCell.swift in Sources */,
 				C80DEC5A295F847B007E487D /* PhotoDataSource.swift in Sources */,
 				C80DEC28295E7556007E487D /* PhotosViewController.swift in Sources */,
