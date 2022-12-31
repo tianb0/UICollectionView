@@ -1,3 +1,5 @@
-![img1](./IMG_3123.PNG)
 
-![img2](./IMG_3124.PNG)
+<div display="flex">
+<img width="30%" src="./IMG_3123.PNG" />
+<img width="30%" src="./IMG_3124.PNG" />
+</div>
